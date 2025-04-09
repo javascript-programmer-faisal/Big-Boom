@@ -81,6 +81,12 @@
     top: -22px;
     /* opacity: 0.2; */
 }
+.contact-button{
+    width: 97px;
+    height: 40px;
+    border: 1px solid gray;
+}
+
   /* Responsive */
   @media (max-width: 768px) {
     .contact-section {
