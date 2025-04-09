@@ -1,0 +1,105 @@
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #e9e8e8;
+    padding: 40px;
+    gap: 20px;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .contact-left {
+    flex: 1;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+  .contact-left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    background-color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-left p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .contact-left a {
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .contact-desc {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .contact-form {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+    border: none;
+    background-color: white;
+  }
+  
+  .contact-form textarea {
+    min-height: 150px;
+    resize: vertical;
+  }
+  
+  /* Star background */
+  .contact-bg-star {
+    width: 31%;
+    height: 600px;
+    background-image: url('../images/BigBoom_star\ 1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right: 40px;
+    top: -22px;
+    /* opacity: 0.2; */
+}
+  /* Responsive */
+  @media (max-width: 768px) {
+    .contact-section {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .contact-bg-star {
+      position: static;
+      width: 100%;
+      height: 150px;
+      margin-top: 30px;
+      opacity: 0.2;
+    }
+
+  }
+  
